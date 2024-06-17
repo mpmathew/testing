@@ -1,0 +1,12 @@
+{
+    "airflow_dags": [
+            "/appz/home/airflow/dags/airflow_dags",
+            "main",
+            "mpmathew@ecloudcontrol.com"
+    ],
+    "https://github.com/mpmathew/postgres13-master.git": [
+            "/appz/home/airflow/dags/postgres13-master",
+            "master",
+            "mpmathew@ecloudcontrol.com"
+    ]
+  }
