@@ -7,6 +7,6 @@
     "https://github.com/mpmathew/postgres13-master": [
             "/appz/home/airflow/dags/postgres13-master",
             "master",
-            ["mpmathew+test@ecloudcontrol.com"]
+            ["mpmathew+test@ecloudcontrol.com", "mpmathew+alt@ecloudcontrol.com"]
     ]
   }
