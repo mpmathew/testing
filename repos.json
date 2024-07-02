@@ -1,12 +1,14 @@
 {
-    "airflow_dags": [
-            "/appz/home/airflow/dags/airflow_dags",
-            "main",
-            "mpmathew@ecloudcontrol.com"
-    ],
-    "https://github.com/mpmathew/postgres13-master": [
-            "/appz/home/airflow/dags/postgres13-master",
-            "master",
-            ["mpmathew+test@ecloudcontrol.com", "mpmathew@ecloudcontrol.com"]
-    ]
-  }
+        "airflow_dags": {
+            "path": "/appz/home/airflow/dags/airflow_dags",
+            "branch": "main",
+            "email": "mpmathew@ecloudcontrol.com",
+            "group": "data-engineering"
+        },
+        "https://github.com/mpmathew/postgres13-master": {
+            "path": "/appz/home/airflow/dags/postgres13-master",
+            "branch": "master",
+            "email": ["mpmathew+test@ecloudcontrol.com", "mpmathew@ecloudcontrol.com"],
+            "group": "sample"
+        }
+}
